@@ -1,24 +1,37 @@
-<p align="center">
-  <img src="./assets/image_utils_logo.png" width="700"/>
-</p>
+<div align="center">
+  <img src="./assets/image_utils_logo.png" width="700">
+  <br><br>
+  <p align="center"><strong>An image processing toolbox</strong></p>
+</div>
 
-## ImageUtils: An Image Processing Toolbox
+<div align="center" style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap; margin-top: 10px;">
+  <a href="https://profiles.ucl.ac.uk/101480-ellis-langford"><img src="https://custom-icon-badges.demolab.com/badge/UCL Profile-purple?logo=ucl" alt="UCL Profile"></a>
+  <a href="https://orcid.org/0009-0006-1269-2632"><img src="https://img.shields.io/badge/ORCiD-green?logo=orcid&logoColor=white" alt="ORCiD"></a>
+  <a href="https://github.com/ellis-langford"><img src="https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white" alt="GitHub"></a>
+  <a href="https://uk.linkedin.com/in/ellis-langford-8333441ab"><img src="https://custom-icon-badges.demolab.com/badge/LinkedIn-0A66C2?logo=linkedin-white&logoColor=fff" alt="LinkedIn"></a>
+</div>
 
-### 1. Requirements
+## Introduction
 
-To successfully run the ImagePrep pipeline, please ensure the following requirements are met:
+ImageUtils is an image processing toolbox for neuroimaging data.
+
+
+## Requirements
+
+To successfully run the ImageUtils pipeline, please ensure the following requirements are met:
 
 **Ubuntu 22.04 + Python 3.10**<br>
 *(other versions may be compatible but have not been tested)*
 
-### 2. Installation & Quick Start
+
+## Installation & Quick Start
 
 To install the necessary components for ImageUtils, please follow the steps below:
 
 - Clone the ImageUtils docker image from the GitHub repo:
   
   ```bash
-  git clone https://github.com/ellis-langford/ImageUtils.git
+  git clone https://github.com/ellis-langford/ImageUtils.git utils
   ```
   
 - Add the toolbox directory to your pythonpath:
@@ -46,7 +59,8 @@ To install the necessary components for ImageUtils, please follow the steps belo
   ```bash
   helpers.plugin_log("Hello World")
 
-### 3. Classes and Functions
+
+## Classes and Functions
 
 The available classes include:
 1. `base_cog.py`
@@ -66,7 +80,8 @@ The available classes include:
 
 This project is being continually updated.
 
-### 5. Citation
+
+## Citation
 
 If you find this work useful to you, feel free to cite the following reference:
 
@@ -80,17 +95,4 @@ If you find this work useful to you, feel free to cite the following reference:
   number={},
   pages={},
   doi={}}
-
 ```
-
-### Useful links
-
-<!-- [![](https://img.shields.io/badge/Software-ANTsPy-orange)](https://antspy.readthedocs.io/en/latest/index.html) -->
-
-### Acknowledgements
-
-This pipeline was developed whilst completing my PhD research at University College London.
-
-### References
-
-<!-- 1. *B. B. Avants, N. Tustison, P. A. Cook, et al., “ANTs: Advanced Normalization Tools in Python (ANTsPy),” Insight Journal, 2019.* -->
